@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Presentation Mode",
+        "command": "presentation_mode"
+    },
+    {
+        "caption": "Presentation Mode: Revert",
+        "command": "revert_presentation_mode"
+    },
+    {
+        "caption": "Presentation Mode: Save Current Settings",
+        "command": "save_current"
+    }
+]

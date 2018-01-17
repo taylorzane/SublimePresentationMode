@@ -1,0 +1,38 @@
+== Presentation Mode
+
+A simple tool to quickly modify settings to make presenting on a projector, or Apple TV, much easier to read.
+
+
+== Commands
+
+=== `Presentation Mode`
+
+This command will update Sublime Text's settings with your predefined presentation defaults.
+
+=== `Presentation Mode: Revert`
+
+This will undo the previous command. There is no need to set anything for this command to work, it simply takes the state prior to running `Presentation Mode`.
+
+=== `Presentation Mode: Save Current Settings`
+
+This will save a subset of your current Sublime Text settings to be applied when running `Presentation Mode`
+
+== Usage
+
+. Install via Package Control, or git.
+. Connect your computer to your presentation device and hone in your desired settings.
+. Run `Presentation Mode: Save Current Settings`.
+. Disconnect your computer from presentation device and revert to your previous settings.
+. Run `Presentation Mode` when you need to present!
+
+== Saved Settings
+
+- `color_scheme`
+- `font_face`
+- `font_size`
+- `theme`
+
+== Tasks
+
+- [ ] Add a `Calibrate` mode so that users don't have to manually revert their settings
+- [ ] Expand the settings that are stored.
